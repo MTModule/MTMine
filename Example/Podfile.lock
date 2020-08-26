@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MTMine (0.1.0):
+    - AFNetworking
+    - Masonry
+    - MTMine/Data (= 0.1.0)
+    - MTMine/Service (= 0.1.0)
+    - MTMine/UI (= 0.1.0)
+  - MTMine/Data (0.1.0):
+    - AFNetworking
+    - Masonry
+  - MTMine/Service (0.1.0):
+    - AFNetworking
+    - Masonry
+  - MTMine/UI (0.1.0):
+    - AFNetworking
+    - Masonry
+
+DEPENDENCIES:
+  - MTMine (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+
+EXTERNAL SOURCES:
+  MTMine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MTMine: 3caf0c8a4a0bd0787aec7030091ea56ed5c67b0a
+
+PODFILE CHECKSUM: 0d1a1174e2512d5a31a65ec3e7436c980349cf59
+
+COCOAPODS: 1.9.3

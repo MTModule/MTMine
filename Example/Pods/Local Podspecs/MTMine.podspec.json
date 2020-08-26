@@ -1,0 +1,46 @@
+{
+  "name": "MTMine",
+  "version": "0.1.0",
+  "summary": "A short description of MTMine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MTModule/MTMine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "33cun": "xiaoxin@evrazlabs.email"
+  },
+  "source": {
+    "git": "https://github.com/MTModule/MTMine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTMine/Classes/**/*",
+  "public_header_files": "MTMine/Classes/XXMineTarget.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "UI",
+      "source_files": "MTMine/Classes/UI/**/*"
+    },
+    {
+      "name": "Data",
+      "source_files": "MTMine/Classes/Data/**/*"
+    },
+    {
+      "name": "Service",
+      "source_files": "MTMine/Classes/Service/**/*"
+    }
+  ]
+}

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		061C6DD021C34495C82BF81E /* Pods_MTMine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTMine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25A58620F690E9A3503C41AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		25A58620F690E9A3503C41AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MTMine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTMine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,9 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A32A84CC8F0971B156569D8C /* Pods-MTMine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMine_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MTMine_Tests/Pods-MTMine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1D2D7960BA9482E63532C4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1D2D7960BA9482E63532C4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B52DD5ADEDBA926133F58D99 /* Pods-MTMine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMine_Example.release.xcconfig"; path = "Target Support Files/Pods-MTMine_Example/Pods-MTMine_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BD7F82E68CE27C956E443C0C /* MTMine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MTMine.podspec; path = ../MTMine.podspec; sourceTree = "<group>"; };
+		BD7F82E68CE27C956E443C0C /* MTMine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTMine.podspec; path = ../MTMine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB799ED37C7D1F6C4C1857FF /* Pods-MTMine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMine_Example.debug.xcconfig"; path = "Target Support Files/Pods-MTMine_Example/Pods-MTMine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC3EC0F55B2FCF6BCC08A996 /* Pods-MTMine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTMine_Tests.release.xcconfig"; path = "Target Support Files/Pods-MTMine_Tests/Pods-MTMine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F65BE8A1A809CF0AD7ECDB32 /* Pods_MTMine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTMine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				A32A84CC8F0971B156569D8C /* Pods-MTMine_Tests.debug.xcconfig */,
 				DC3EC0F55B2FCF6BCC08A996 /* Pods-MTMine_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +324,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MTMine_Example/Pods-MTMine_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/MTMine/MTMine.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTMine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
