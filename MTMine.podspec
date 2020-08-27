@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MTMine'                                   # pod 名
-    s.version          = '0.1.4'                                    # 版本号
+    s.version          = '0.1.5'                                    # 版本号
     s.summary          = 'A short description of MTMine.'           # pod 简介
     
     # This description is used to generate tags and improve search results.
@@ -32,20 +32,23 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'                                 # 支持的平台及版本
     
     #   **/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
-    s.source_files = 'MTMine/Classes/MTHomeTarget.{h,m}'            # 需要暴露给外部调用的文件
+    s.source_files = 'MTMine/Classes/XXMineTarget.{h,m}'            # 源代码文件
     
     
     # 文件分组
     s.subspec 'UI' do |ui|
         ui.source_files = 'MTMine/Classes/UI/**/*'
+        ui.public_header_files = 'MTMine/Classes/UI/**/*.h'
     end
     
     s.subspec 'Data' do |data|
         data.source_files = 'MTMine/Classes/Data/**/*'
+        data.public_header_files = 'MTMine/Classes/Data/**/*.h'
     end
     
     s.subspec 'Service' do |service|
         service.source_files = 'MTMine/Classes/Service/**/*'
+        service.public_header_files = 'MTMine/Classes/Service/**/*.h'
     end
     
     
