@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MTMine
 
 [![CI Status](https://img.shields.io/travis/33cun/MTMine.svg?style=flat)](https://travis-ci.org/33cun/MTMine)
@@ -27,3 +28,6 @@ pod 'MTMine'
 ## License
 
 MTMine is available under the MIT license. See the LICENSE file for more info.
+=======
+# MTMine
+>>>>>>> 7d2fe2151c0c6e66e2ccfb2eede277dda70e9369
