@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_Mine : NSObject
 
-- (UIViewController *)Action_getRootVC;
+- (UIViewController *)Action_getRootVC:(NSDictionary *)params;
 
 @end
 

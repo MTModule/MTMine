@@ -11,7 +11,7 @@
 
 @implementation Target_Mine
 
-- (UIViewController *)Action_getRootVC {
+- (UIViewController *)Action_getRootVC:(NSDictionary *)params {
     MTMineRootVC *vc = [[MTMineRootVC alloc] init];
     return vc;
 }

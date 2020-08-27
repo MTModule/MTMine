@@ -18,22 +18,22 @@ PODS:
     - CTMediator
   - CTMediator (44)
   - Masonry (1.1.0)
-  - MTMine (0.1.8):
+  - MTMine (0.1.9):
     - AFNetworking
     - CTMediator
     - Masonry
-    - MTMine/Data (= 0.1.8)
-    - MTMine/Service (= 0.1.8)
-    - MTMine/UI (= 0.1.8)
-  - MTMine/Data (0.1.8):
+    - MTMine/Data (= 0.1.9)
+    - MTMine/Service (= 0.1.9)
+    - MTMine/UI (= 0.1.9)
+  - MTMine/Data (0.1.9):
     - AFNetworking
     - CTMediator
     - Masonry
-  - MTMine/Service (0.1.8):
+  - MTMine/Service (0.1.9):
     - AFNetworking
     - CTMediator
     - Masonry
-  - MTMine/UI (0.1.8):
+  - MTMine/UI (0.1.9):
     - AFNetworking
     - CTMediator
     - Masonry
@@ -64,7 +64,7 @@ SPEC CHECKSUMS:
   Category_Mine: a58e1e28c5a86373695bb9c62415f72c1046bad0
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MTMine: 9a0de0c6ad2c69451a633360c2a54f7ec8155bc5
+  MTMine: 0824dcc5326aa51bf476e9abac23316dcc5d1245
 
 PODFILE CHECKSUM: 11adb085294c13ffdabc720dea42b497a1bd4ae8
 
