@@ -15,19 +15,19 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
-  - MTMine (0.1.1):
+  - MTMine (0.1.2):
     - AFNetworking
     - Masonry
-    - MTMine/Data (= 0.1.1)
-    - MTMine/Service (= 0.1.1)
-    - MTMine/UI (= 0.1.1)
-  - MTMine/Data (0.1.1):
+    - MTMine/Data (= 0.1.2)
+    - MTMine/Service (= 0.1.2)
+    - MTMine/UI (= 0.1.2)
+  - MTMine/Data (0.1.2):
     - AFNetworking
     - Masonry
-  - MTMine/Service (0.1.1):
+  - MTMine/Service (0.1.2):
     - AFNetworking
     - Masonry
-  - MTMine/UI (0.1.1):
+  - MTMine/UI (0.1.2):
     - AFNetworking
     - Masonry
 
@@ -46,7 +46,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MTMine: 270d4cda09103dc78ed0011a600ce3a8c0edc60b
+  MTMine: 9d8195644037464ef1e8be395afcb56dddb3d63b
 
 PODFILE CHECKSUM: 0d1a1174e2512d5a31a65ec3e7436c980349cf59
 
