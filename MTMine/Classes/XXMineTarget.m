@@ -7,6 +7,13 @@
 
 #import "XXMineTarget.h"
 
+#import "MTMineRootVC.h"
+
 @implementation XXMineTarget
+
++ (UIViewController *)getRootVC {
+    MTMineRootVC *vc = [[MTMineRootVC alloc] init];
+    return vc;
+}
 
 @end

@@ -11,6 +11,9 @@
 #endif
 
 #import "XXMineTarget.h"
+#import "MTMineModel.h"
+#import "MTMineRootVC.h"
+#import "MTMineView.h"
 
 FOUNDATION_EXPORT double MTMineVersionNumber;
 FOUNDATION_EXPORT const unsigned char MTMineVersionString[];
