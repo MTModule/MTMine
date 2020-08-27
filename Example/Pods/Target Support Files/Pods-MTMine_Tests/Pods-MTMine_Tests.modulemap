@@ -1,6 +1,0 @@
-framework module Pods_MTMine_Tests {
-  umbrella header "Pods-MTMine_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "XXMineTarget.h"
+#import "Target_Mine.h"
 #import "MTMineModel.h"
 #import "MTMineRootVC.h"
 #import "MTMineView.h"

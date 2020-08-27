@@ -5,9 +5,7 @@ platform :ios, '8.0'
 target 'MTMine_Example' do
   pod 'MTMine', :path => '../'
 
-  target 'MTMine_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'Category_Mine', :git => 'https://github.com/MTModule/Category_Mine.git'
+  
+  
 end

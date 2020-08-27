@@ -7,12 +7,12 @@
 //
 
 #import "MTAppDelegate.h"
-#import <MTMine/XXMineTarget.h>
+#import <Category_Mine/CTMediator+Mine.h>
 
 @implementation MTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIViewController *vc = [XXMineTarget getRootVC];
+    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window maskView];

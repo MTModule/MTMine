@@ -14,29 +14,32 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Category_Mine (0.1.0):
+    - CTMediator
   - CTMediator (44)
   - Masonry (1.1.0)
-  - MTMine (0.1.6):
+  - MTMine (0.1.7):
     - AFNetworking
     - CTMediator
     - Masonry
-    - MTMine/Data (= 0.1.6)
-    - MTMine/Service (= 0.1.6)
-    - MTMine/UI (= 0.1.6)
-  - MTMine/Data (0.1.6):
+    - MTMine/Data (= 0.1.7)
+    - MTMine/Service (= 0.1.7)
+    - MTMine/UI (= 0.1.7)
+  - MTMine/Data (0.1.7):
     - AFNetworking
     - CTMediator
     - Masonry
-  - MTMine/Service (0.1.6):
+  - MTMine/Service (0.1.7):
     - AFNetworking
     - CTMediator
     - Masonry
-  - MTMine/UI (0.1.6):
+  - MTMine/UI (0.1.7):
     - AFNetworking
     - CTMediator
     - Masonry
 
 DEPENDENCIES:
+  - Category_Mine (from `https://github.com/MTModule/Category_Mine.git`)
   - MTMine (from `../`)
 
 SPEC REPOS:
@@ -46,15 +49,23 @@ SPEC REPOS:
     - Masonry
 
 EXTERNAL SOURCES:
+  Category_Mine:
+    :git: https://github.com/MTModule/Category_Mine.git
   MTMine:
     :path: "../"
 
+CHECKOUT OPTIONS:
+  Category_Mine:
+    :commit: 4b7540c5956a4025db756a6ae722463e004f1b2f
+    :git: https://github.com/MTModule/Category_Mine.git
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Category_Mine: a58e1e28c5a86373695bb9c62415f72c1046bad0
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MTMine: 877ca042057463121ac6afa3103eec9f96651036
+  MTMine: 2b6201513baffc58e6b30c81b6cea3ae5ba5f151
 
-PODFILE CHECKSUM: 0d1a1174e2512d5a31a65ec3e7436c980349cf59
+PODFILE CHECKSUM: 11adb085294c13ffdabc720dea42b497a1bd4ae8
 
 COCOAPODS: 1.9.3

@@ -1,17 +1,17 @@
 //
 //  XXMTarget.m
-//  AFNetworking
+//  MTMine
 //
 //  Created by Eleven on 2020/8/26.
 //
 
-#import "XXMineTarget.h"
+#import "Target_Mine.h"
 
 #import "MTMineRootVC.h"
 
-@implementation XXMineTarget
+@implementation Target_Mine
 
-+ (UIViewController *)getRootVC {
+- (UIViewController *)getRootVC {
     MTMineRootVC *vc = [[MTMineRootVC alloc] init];
     return vc;
 }

@@ -1,6 +1,6 @@
 //
 //  XXMTarget.h
-//  AFNetworking
+//  MTMine
 //
 //  Created by Eleven on 2020/8/26.
 //
@@ -9,9 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface XXMineTarget : NSObject
+@interface Target_Mine : NSObject
 
-+ (UIViewController *)getRootVC;
+- (UIViewController *)getRootVC;
 
 @end
 
