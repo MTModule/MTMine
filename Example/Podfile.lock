@@ -14,21 +14,26 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - CTMediator (44)
   - Masonry (1.1.0)
-  - MTMine (0.1.2):
+  - MTMine (0.1.3):
     - AFNetworking
+    - CTMediator
     - Masonry
-    - MTMine/Data (= 0.1.2)
-    - MTMine/Service (= 0.1.2)
-    - MTMine/UI (= 0.1.2)
-  - MTMine/Data (0.1.2):
+    - MTMine/Data (= 0.1.3)
+    - MTMine/Service (= 0.1.3)
+    - MTMine/UI (= 0.1.3)
+  - MTMine/Data (0.1.3):
     - AFNetworking
+    - CTMediator
     - Masonry
-  - MTMine/Service (0.1.2):
+  - MTMine/Service (0.1.3):
     - AFNetworking
+    - CTMediator
     - Masonry
-  - MTMine/UI (0.1.2):
+  - MTMine/UI (0.1.3):
     - AFNetworking
+    - CTMediator
     - Masonry
 
 DEPENDENCIES:
@@ -37,6 +42,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CTMediator
     - Masonry
 
 EXTERNAL SOURCES:
@@ -45,8 +51,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MTMine: 9d8195644037464ef1e8be395afcb56dddb3d63b
+  MTMine: cd439c3a3d395bcbc43041b35ce966a67edce4ea
 
 PODFILE CHECKSUM: 0d1a1174e2512d5a31a65ec3e7436c980349cf59
 
