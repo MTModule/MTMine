@@ -12,7 +12,7 @@
 @implementation MTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
+    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_viewControllerForMine];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window maskView];

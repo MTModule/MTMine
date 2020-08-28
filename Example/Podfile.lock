@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Category_Mine (0.1.0):
+  - Category_Mine (0.1.3):
     - CTMediator
   - CTMediator (44)
   - Masonry (1.1.0)
@@ -56,12 +56,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Category_Mine:
-    :commit: 4b7540c5956a4025db756a6ae722463e004f1b2f
+    :commit: 72398862ea40df8feb3fc37ba15b73a6af66ae86
     :git: https://github.com/MTModule/Category_Mine.git
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Category_Mine: a58e1e28c5a86373695bb9c62415f72c1046bad0
+  Category_Mine: ad7bf780f5378de4d7d2d590a806d6855b2b62d0
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MTMine: 0824dcc5326aa51bf476e9abac23316dcc5d1245

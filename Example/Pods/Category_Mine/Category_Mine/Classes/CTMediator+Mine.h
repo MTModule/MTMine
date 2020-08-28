@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (Mine)
 
-- (UIViewController *)CTMediator_viewControllerForDetail;
+- (UIViewController *)CTMediator_viewControllerForMine;
 
 @end
 

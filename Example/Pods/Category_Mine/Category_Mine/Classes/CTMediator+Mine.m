@@ -7,14 +7,14 @@
 
 #import "CTMediator+Mine.h"
 
-NSString * const kCTMediatorTargetHome = @"Mine";
-NSString * const kCTMediatorActionRootViewController = @"rootViewController";
+NSString * const kCTMediatorTargetMine = @"Mine";
+NSString * const kCTMediatorActionMineRootViewController = @"getRootVC";
 
 @implementation CTMediator (Mine)
 
-- (UIViewController *)CTMediator_viewControllerForDetail {
-    UIViewController *viewController = [self performTarget:kCTMediatorTargetHome
-                                                    action:kCTMediatorActionRootViewController
+- (UIViewController *)CTMediator_viewControllerForMine {
+    UIViewController *viewController = [self performTarget:kCTMediatorTargetMine
+                                                    action:kCTMediatorActionMineRootViewController
                                                     params:@{@"key" : @"value"}
                                          shouldCacheTarget:NO
                                         ];
